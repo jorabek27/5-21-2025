@@ -18,14 +18,6 @@
 // }
 
 
-
-
-
-// last commit
-
-
-
-
 // customElements.define('Side-bar', SideBar);
 
 class MyComponent extends HTMLElement {
