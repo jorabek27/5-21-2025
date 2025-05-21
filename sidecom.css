@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.nav {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+
+    svg {
+        height: 27px;
+
+    }
+
+}
+
+.sidebar {
+    padding: 40px 20px;
+    height: 100%;
+    width: 13%;
+    border-right: 1px solid gray;
+
+    ul {
+        padding: 10px
+    }
+
+    li {
+        display: flex;
+        align-items: table;
+        flex-direction: column;
+
+    }
+
+    a {
+        padding: 5px 5px 10px;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        text-decoration: none;
+        color: #5d5d5d;
+        font-size: 16px;
+
+        svg {
+            height: 20px;
+
+        }
+    }
+
+    .about {
+        display: flex;
+        gap: 20px;
+        border: none;
+        background: #F4F9FD;
+        align-items: center;
+        padding-left: 30px;
+        margin-top: 140%;
+        margin-bottom: 10 px;
+    }
+}
+
+/* stat big */
+.container{
+    display: flex;
+    
+}
+
+.stat-big {
+    overflow-y: auto;
+
+    .sales {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-left: 10px;
+
+        border-bottom: 1px solid grey;
+
+        .sale {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+
+            .svg {
+                width: 84px;
+                height: 84px;
+                border-radius: 50%;
+                background: linear-gradient(201deg, #d3ffe7 3.14%, #effff6 86.04%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        gap: 50px;
+        border-bottom: 1px solid grey;
+        padding-left: 30px;
+        height: 40%;
+
+        .profit {
+            padding-top: 20px;
+
+            .tables {
+                display: flex;
+                gap: 10px;
+                height: 70%;
+                justify-content: center;
+
+                .table {
+                    width: 31px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+
+                    .tab,
+                    .tab1,
+                    .tab2,
+                    .tab3,
+                    .tab4,
+                    .tab5,
+                    .tab6,
+                    .tab7,
+                    .tab8,
+                    .tab9,
+                    .tab10,
+                    .tab11 {
+                        background-color: #afcdf8;
+                        width: 100%;
+                        border: 1px solid black;
+                        border-radius: 7px;
+                        border: none;
+                    }
+
+                    .tab {
+                        height: 70%;
+                    }
+
+                    .tab1 {
+                        height: 40%;
+                    }
+
+                    .tab2 {
+                        height: 80%;
+                    }
+
+                    .tab3 {
+                        height: 63%;
+                    }
+
+                    .tab4 {
+                        height: 71%;
+                    }
+
+                    .tab5 {
+                        height: 80%;
+                    }
+
+                    .tab6 {
+                        height: 90%;
+                    }
+
+                    .tab7 {
+                        background-color: green;
+                        height: 95%;
+                    }
+
+                    .tab8 {
+                        height: 45%;
+                    }
+
+                    .tab9 {
+                        height: 20%;
+                    }
+
+                    .tab10 {
+                        height: 80%;
+                    }
+
+                    .tab11 {
+                        height: 850%;
+                    }
+                }
+            }
+        }
+
+        .profit-2 {
+            border-left: 1px solid grey;
+            padding-left: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .tables-2 {
+                display: flex;
+                gap: 10px;
+                height: 70%;
+                justify-content: center;
+
+                .table {
+                    width: 31px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+
+                    .tab,
+                    .tab1,
+                    .tab2,
+                    .tab3,
+                    .tab4,
+                    .tab5,
+                    .tab6,
+                    .tab7,
+                    .tab8,
+                    .tab9,
+                    .tab10,
+                    .tab11 {
+                        background-color: #afcdf8;
+                        width: 100%;
+                        border: 1px solid black;
+                        border-radius: 7px;
+                        border: none;
+                    }
+
+                    .tab {
+                        height: 70%;
+                    }
+
+                    .tab1 {
+                        height: 40%;
+                    }
+
+                    .tab2 {
+                        height: 80%;
+                    }
+
+                    .tab3 {
+                        height: 63%;
+                    }
+
+                    .tab4 {
+                        height: 71%;
+                    }
+
+                    .tab5 {
+                        height: 80%;
+                    }
+
+                    .tab6 {
+                        height: 90%;
+                    }
+
+                    .tab7 {
+                        background-color: red;
+                        height: 95%;
+                    }
+
+                    .tab8 {
+                        height: 45%;
+                    }
+
+                    .tab9 {
+                        height: 20%;
+                    }
+
+                    .tab10 {
+                        height: 80%;
+                    }
+
+                    .tab11 {
+                        height: 850%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* table */
+.qarz-table {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    padding: 20px;
+
+    table {
+        width: 100%;
+        border: none;
+        background-color: #fff;
+        padding: 10px;
+
+        th {
+            background-color: #fff;
+            padding: 10px;
+            text-align: left;
+            font-size: 13 px;
+            color: #333;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td {
+            padding: 10px;
+            text-align: left;
+            font-size: 13px;
+            border-bottom: 1px solid #ddd;
+        }
+    }
+}
